@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="../favicon.ico" type="image/x-icon" rel="icon"><link href="../favicon.ico" type="image/x-icon" rel="shortcut icon">  <title> </title>
+  <meta name="keywords" content>
+  <meta name="description" content>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../css/style.css">            <script src="../js/jquery.min.js"></script></head>
+
+<body class>
+  
+<!-- START - HEADER -->
+<header class="site-header">
+    <div class="container">
+        <div class="container-innr">
+            <div class="sec-row flexrow">
+                <div class="sec-md-col-20 logo-clmn">
+                    <div class="logo-grp">
+                        <a href="https://ababil.ru/"><img src="ababil-logo.png" alt="Ababil"></a>
+                        <div class="mnav-trigger"><span></span><span></span><span></span></div>
+                    </div>
+                </div>
+                <div class="sec-md-col-80 nav-clmn">
+                    <div class="headernav-cntnr">
+                        <div class="mnav-clstrigger"><span></span><span></span></div>
+                        <div class="headernav-grp">                   
+                            <ul>
+                                <li><a href="https://ababil.ru/">Главная</a></li>
+                                <li><a href="/who-we-are" class>О НАС	 </a></li>
+                                <li class="has-children products">
+                                    <a href="/products" class>ПРОДУКЦИЯ	</a>                                    <ul class="childrenlist">
+                                        <li><a href="/products/tobacco">Табак</a></li>
+                                        <li><a href="/products/tea">Чай</a></li>
+                                        <li><a href="/products/masterbatch">Суперконцентраты</a></li>
+                                        <li><a href="/products/ntm">НТМ (нетабачные материалы)</a></li>
+                                        <li><a href="/products/machinery">Оборудование для производства сигарет </a></li>  
+                                    </ul>
+                                </li>
+                                <li class="has-children products">
+                                    <a href="#">Быстрые ссылки</a>
+                                    <ul class="childrenlist">
+                                        <li class><a href="/contact-us" class>КОНТАКТЫ</a></li>
+                                        <!--   <li><a href="/career">Карьера </a></li>-->
+                                        <li><a href="/financial">Финансы</a></li>
+                                        <li><a href="/corporateresponsibility">социальная ответственность</a></li>
+                                        <li class><a href="/gallery">Галерея</a></li>
+                                        <li class><a href="/suppliers">поставщики</a></li>
+                                        <li class><a href="/distributors">дистрибьюторы</a></li>
+                                </ul>
+                                </li>
+                                <li class="has-children brands">
+                                    <a href="#">НАШИ БРЕНДЫ	</a>
+                                    <ul class="childrenlist">
+                                                                            <li><a href="/our-brand/ten10">Ten10</a></li>
+                                                                                <li><a href="/our-brand/resolute">Resolute</a></li>
+                                                                                <li><a href="/our-brand/clive">Clive</a></li>
+                                                                                <li><a href="/our-brand/affaire">AFFAIRE</a></li>
+                                                                                <li><a href="/our-brand/wand">Wand</a></li>
+                                                                        </ul>
+                                </li>
+                                <li class="has-children country no-arrow">
+                                    <a href="#"><img src="map-icon.png"> </a>                                        
+                                    <ul class="childrenlist">
+                                        <li><a href="/armenia">Armenia</a></li>
+                                        <li><a href="/azerbaijan">Azerbaijan</a></li>
+                                        <li><a href="/belarus">Belarus</a></li>
+                                        <li><a href="/georgia">Georgia</a></li>
+                                        <li><a href="/kazakhstan">Kazakhstan</a></li>
+                                        <li><a href="/kyrgyzstan">Kyrgyzstan</a></li>
+                                        <li><a href="/moldova">Moldova</a></li>
+                                        <li><a href="/mongolia">Mongolia</a></li>
+                                        <li><a href="/russia">Russia</a></li>
+                                        <li><a href="/tajikistan">Tajikistan</a></li>
+                                        <li><a href="/turkmenistan">Turkmenistan</a></li>
+                                        <li><a href="/ukraine">Ukraine</a></li>
+                                        <li><a href="/united-arab-emirates">United Arab Emirates</a></li>
+                                        <li><a href="/uzbekistan">Uzbekistan</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children language">
+                                    <a href="#" class="country"><img src="pycc-icon.png"> </a>                                        
+                                    <ul class="childrenlist">
+                                        <li><a href="/site/images/cig5.png" class="pycc">Pусский</a></li>
+                                        <li><a href="https://ababil.ru/es/site/images/cig5.png" class="espan">Spanish</a></li>
+                                        <li><a href="https://ababil.ae/site/images/cig5.png" class="english">English</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="search"><span class="head-search"></span>
+                                    <form action="https://ababil.ru/search" class="search-form">
+                                        <input type="text" placeholder="Поиск..." name="q" id="tipue_search_input">
+                                        <button type="submit" id="tipue_search_button" onclick="this.form.submit();"><img src="search-white.png" alt></button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- END - HEADER -->  <!-- Start - page container -->
+<div class="page-container">
+
+<!-- Start - banner section -->
+<section class="banner-sec small-section">
+    <div class="container">
+        <div class="sec-row">
+                <div class="cntnt-grp  heading-box small-content error">
+                    <img src="error.png" alt="404 not found">
+                    <h1>oops! page not found</h1>
+                    <p>We Can’t seem to find the page you’re looking for.</p>
+                    <a href="https://ababil.ru/" class="btn">goto home page</a>
+                </div>
+        </div>
+    </div>
+
+</section>
+<!-- End - banner section -->
+
+</div>
+<!-- End - page container -->  <!-- START - Footer -->
+<footer class="site-footer">
+     <!-- Start- subs pop up -->
+            <div class="form-container subscribe-form-container subscribe-popup-container">
+                <form action="https://ababil.ru/pages/newsletter" class="flex-box subscribe-form" method="post">
+                    <div class="subscribe-popup-close"></div>
+                    <div class="col-5">
+            
+                        <div class="heading-box">
+                            <h6>Подпишитесь на новостную рассылку</h6>
+                            <p>Подпишитесь на нашу рассылку, чтобы получать последние новости.</p>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="email-grp">
+                            <input type="text" placeholder="Ваш e-mail..." name="email" required>
+                            <button type="submit" class="btn">Подпишитесь</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    <!-- Start- subs pop up -->
+        <div class="container">
+            <div class="ft-topsec">
+    
+            </div>
+            <div class="ft-midsec">
+                <div class="sec-row">
+                    <div class="sec-md-col-70 ftnav-clmn">
+                        <div class="clmninnr">
+                            <div class="ftnav-grp">
+                                <ul>
+                                    <li class="has-children ">
+                                        <a href="/who-we-are">о нас</a>                                        <ul class="childrenlist">
+                                            <li><a href="/who-we-are">О нас </a></li>
+                                            <li><a href="/who-we-are">О НАС</a></li>
+                                       <!--     <li><a href="/career">Trayectoria profesional </a></li>-->
+                                            <!-- <li><a href="/gallery">Галерея</a></li> -->
+                                            <li><a href="/financial">Финансовые показатели</a></li>
+                                            <li><a href="/contact-us">КОНТАКТЫ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="/products">Наш продукт</a>                                        <ul class="childrenlist">
+                                            <li><a href="/products/tobacco">Табак</a></li>
+                                            <li><a href="/products/tea">Чай</a></li>
+                                            <li><a href="/products/masterbatch">Суперконцентраты</a></li>
+                                            <li><a href="/products/ntm">Не табачный материал</a></li>
+                                            <li><a href="/products/machinery">Оборудование для производства сигарет</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="javascript:void(0);">Отказ от ответственности</a>
+                                        <ul class="childrenlist">
+                                            <li><a href="/legal">Юридическая</a></li>
+                                            <li><a href="/terms-conditions">Условия и положения</a></li>
+                                            <li><a href="/privacy-policy">Политика конфиденциальности</a></li>
+                                            <li><a href="/cookies-policy">Политика использования файлов cookie</a></li>
+                                            <li><a href="/cookies-preferences">Настройки файлов cookie</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec-md-col-30 newsletter-socialicons-clmn">
+                        <ul>
+                            <li class="catlog"><a href="#" class="arrow-icon">СКАЧАТЬ КАТАЛОГ</a></li>
+                            <li class="nwsltr nwsltr-btn"><a href="javascript:" class="arrow-icon">Подписаться на новости</a></li>
+                            <li class="prdt-search">
+                                <form action="https://ababil.ru/search" class>
+                                    <input type="text" name="q" class="tipue_search_input" placeholder="Поиск продуктов...">
+                                    <button type="submit" class="arrow-icon"></button>
+                                </form>
+                            </li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="sec-row">
+                    <div class="ft-gettouch">
+                        <h6>Подпишитесь на нас в</h6>
+                        <ul class="ft-socialicons">
+                            <li><a href="https://www.facebook.com/AbabilCoLimited" class="fbicon" target="_blank"></a></li>
+                            <li><a href="https://twitter.com/AbabilCoLtd" class="twittericon" target="_blank"></a></li>
+                            <li><a href="https://www.instagram.com/AbabilCoLtd" class="instaicon" target="_blank"></a></li>
+                            <li><a href="https://vk.com/AbabilCoLtd" class="vkicon" target="_blank"></a></li>
+                            <li><a href="https://www.linkedin.com/company/ababilcoltd" class="linkedinicon" target="_blank"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="ft-btsec">
+                <div class="sec-row">
+                    <div class="sec-md-col-80 copyright-clmn">
+                        <ul class="copyrightlst">
+                            <li><a href="/compinfo">Company Information</a></li>
+                            <li><a href="/glossary">Glossary</a></li>
+                            <li><a href="/sitemap">Sitemap</a></li>
+                            <li><a href="/accessibility">Accessibility</a></li>
+                            <li><a href="/hyperlinking">Hyperlinking</a></li>
+                            <li><a href="https://ababil.ru/es/:controller/:action/*" class="english footer-es">Spanish</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec-md-col-20 designcredit-clmn">
+                        <p>Design Credit: <a href="https://www.artattackk.com/" target="_blank">Artattackk</a></p>
+                    </div>
+                </div>
+                <div class="sec-row warning">
+                    <p>You are on the Tobacco Company website, The Federal Ministry of Health warns smoking is dangerous.</p>
+                    <p><span>Copyright © 2020 Ababil Co.</span>, Ltd. All rights reserved </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END - Footer -->   <link rel="stylesheet" type="text/css" href="../css/slick.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/slick-theme.min.css">
+  <script src="../js/slick.min.js"></script>  
+<script>
+        // tipusearch   
+    $(document).ready(function() {
+        $('.tipue_search_input').tipuesearch({
+            'show': 20
+        });
+    });
+
+
+    //Common js code
+    /* Mobile Navigation */
+        $('.mnav-trigger').click(function() {
+            $('body').addClass('show-mnav');
+        });
+        $('.mnav-clstrigger').click(function() {
+            $('body').removeClass('show-mnav');
+        });
+
+        $(".head-search").click(function(){
+            $(".search-form").toggle();
+        })
+        $(window).scroll(function() {
+        if ($(this).scrollTop() > 1){  
+            $('header').addClass("sticky");
+        }
+        else{
+            $('header').removeClass("sticky");
+        }
+        });
+
+
+        // quote form
+        $(".get-quote").click(function(){
+            $('.quote-form').addClass('show-quote-form'); 
+            e.stopPropagation();
+            e.preventDefault();
+
+        });
+
+
+        $(".close-quote-form").click(function(){
+            $('.quote-form').removeClass('show-quote-form');
+
+        });
+
+        $(document).mouseup(function(e) 
+                            {
+            if (!$(e.target).closest(".quote-form .quoteform-innr").length) 
+            {
+            if($('.quote-form').hasClass('show-quote-form') ) {
+
+                $('.quote-form').removeClass('show-quote-form');
+            }
+            }    
+        });
+
+
+        $(".nwsltr-btn").click(function (e) {
+        $(".subscribe-popup-container").addClass("show-popup");
+        })
+        $(".subscribe-popup-close").click(function (){
+            $(".subscribe-popup-container").removeClass("show-popup");
+        })
+
+        $(document).mouseup(function (e) {
+            if (!$(e.target).closest(".subscribe-popup-container form").length) {
+                if ($('.subscribe-popup-container').hasClass('show-popup')) {
+
+                    $('.subscribe-popup-container').removeClass('show-popup');
+                }
+            }
+        });
+
+
+        // Enquiry FormData
+        $(".inquire-btn,.apply-btn").click(function (e) {
+                $('.inquire-form-container').addClass('show-inquire-form');
+                e.stopPropagation();
+                e.preventDefault();
+                
+                console.log("1");
+            });
+            $(".close-inquire-form").click(function () {
+                $('.inquire-form-container').removeClass('show-inquire-form');
+                console.log("2");
+
+
+            });
+
+
+
+       
+</script>
+</body>
+
+</html>

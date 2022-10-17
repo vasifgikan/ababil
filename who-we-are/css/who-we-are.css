@@ -1,0 +1,475 @@
+body {
+  background-color: #f6f6f6; }
+
+.hide {
+  display: none; }
+
+.text-center {
+  text-align: center; }
+
+.banner-sec {
+  background-image: url("../images/wwa-Banner.jpg");
+  object-fit: contain;
+  object-position: center; }
+
+.company-section .discover-box p {
+  color: #dcdcdc; }
+.company-section .list-box p span {
+  color: #ed2839; }
+.company-section .list-box .btn {
+  font-weight: bold; }
+  .company-section .list-box .btn::after {
+    background-image: url("../images/pls-red-icon.png"); }
+
+.list-section {
+  padding: 130px 0;
+  background-color: #f6f6f6; }
+  .list-section .container {
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto; }
+    .list-section .container .col-5:first-child {
+      padding-left: 140px; }
+    .list-section .container .col-5:nth-child(2) {
+      padding-right: 140px; }
+  .list-section .map-bg {
+    background-image: url("../images/map-bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    align-items: center; }
+  .list-section .text-box {
+    text-align: center;
+    padding-right: 65px; }
+    .list-section .text-box h6 {
+      font-size: 26px;
+      font-weight: 600;
+      text-transform: none;
+      line-height: 1.7;
+      margin: 20px 0; }
+    .list-section .text-box .btn {
+      border: 2px solid #333;
+      margin-top: 20px;
+      color: #333;
+      display: inline-block; }
+      .list-section .text-box .btn:hover {
+        color: #fff;
+        border: 2px solid #ed2839; }
+        .list-section .text-box .btn:hover::after {
+          background-image: url(../images/arrow-white.png); }
+      .list-section .text-box .btn::after {
+        background-image: url("../images/arrow-black.png"); }
+  .list-section .p-list-box ul {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    padding: 0 30px;
+    padding-left: 60px;
+    margin-left: auto; }
+    .list-section .p-list-box ul li {
+      width: calc(100%/2);
+      margin: 15px; }
+      .list-section .p-list-box ul li .card {
+        align-items: flex-start;
+        min-height: 200px;
+        padding: 30px 50px;
+        box-shadow: 0px 0px 16px #d2d2d299;
+        transition: all 0.3s ease-in-out; }
+        .list-section .p-list-box ul li .card:hover {
+          background-color: #ed2839; }
+          .list-section .p-list-box ul li .card:hover img {
+            filter: brightness(100); }
+          .list-section .p-list-box ul li .card:hover h6 {
+            color: #fff; }
+        .list-section .p-list-box ul li .card h6 {
+          font-size: 18px;
+          font-weight: 600; }
+      .list-section .p-list-box ul li:last-child .card {
+        padding: 30px 25px;
+        overflow: hidden; }
+
+.vision-section {
+  padding: 60px 0;
+  background-color: #fff; }
+  .vision-section strong {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333; }
+  .vision-section .img-box {
+    overflow: hidden;
+    transition: img 0.3s ease-in-out; }
+    .vision-section .img-box img {
+      transition: img 0.3s ease-in-out; }
+    .vision-section .img-box:hover img {
+      transition: img 0.5s ease-in-out;
+      transform: scale(1.2); }
+    .vision-section .img-box img {
+      width: 100%; }
+  .vision-section .flex-box {
+    align-items: center;
+    padding: 50px 0; }
+  .vision-section .our-vision .text-box {
+    padding-right: 120px; }
+    .vision-section .our-vision .text-box p {
+      font-size: 20px; }
+      .vision-section .our-vision .text-box p:last-child {
+        font-size: 16px;
+        color: #808080; }
+  .vision-section .our-mission .text-box {
+    padding: 50px; }
+    .vision-section .our-mission .text-box p {
+      color: #808080; }
+
+.team-section {
+  padding: 110px 0; }
+  .team-section .heading-box .h2 {
+    margin-bottom: 0; }
+  .team-section .heading-box p {
+    color: #838383;
+    padding: 25px 0;
+    padding-bottom: 40px; }
+  .team-section .img-box {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #d2d2d21f;
+    overflow: hidden; }
+    .team-section .img-box:hover {
+      transition: all 0.3s ease-in-out; }
+      .team-section .img-box:hover img {
+        transition: img 0.5s ease-in-out;
+        transform: scale(1.2); }
+
+.history-section {
+  padding: 120px 0; }
+  .history-section .lion-bg {
+    background-position: 3% 86%;
+    background-size: 27%; }
+  .history-section .heading-box {
+    padding-right: 190px; }
+    .history-section .heading-box p {
+      color: #bdbdce;
+      line-height: 1.7; }
+  .history-section .col-5 {
+    overflow: visible; }
+  .history-section .history-list ul {
+    overflow: hidden;
+    padding-left: 200px; }
+    .history-section .history-list ul li {
+      padding: 40px;
+      padding-left: 0;
+      border-bottom: 1px solid #323244;
+      position: relative; }
+      .history-section .history-list ul li:first-child {
+        padding-top: 0; }
+      .history-section .history-list ul li:last-child {
+        border-bottom: 0;
+        padding-bottom: 0; }
+    .history-section .history-list ul .card {
+      align-items: flex-start;
+      position: relative; }
+      .history-section .history-list ul .card:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1.1); }
+      .history-section .history-list ul .card h6 {
+        flex: 4;
+        color: #fff;
+        line-height: 1.7;
+        text-transform: none;
+        word-spacing: 2px; }
+      .history-section .history-list ul .card::before, .history-section .history-list ul .card::after {
+        position: absolute;
+        left: auto;
+        top: auto; }
+      .history-section .history-list ul .card::before {
+        content: "";
+        top: 0;
+        left: -160px;
+        font-size: 34px;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        color: #ed2839; }
+      .history-section .history-list ul .card::after {
+        content: "";
+        position: absolute;
+        top: 35px;
+        left: -60px;
+        width: 25px;
+        height: 2px;
+        background-color: #ed2839; }
+      .history-section .history-list ul .card.hcard-1::before {
+        content: "2007"; }
+      .history-section .history-list ul .card.hcard-2::before {
+        content: "2009"; }
+      .history-section .history-list ul .card.hcard-3::before {
+        content: "2012"; }
+      .history-section .history-list ul .card.hcard-4::before {
+        content: "2017"; }
+      .history-section .history-list ul .card.hcard-5::before {
+        content: "2019"; }
+
+.health-section {
+  padding: 130px 0; }
+  .health-section .flex-box.row {
+    align-items: center; }
+  .health-section > .row {
+    justify-content: space-between;
+    padding-bottom: 60px; }
+  .health-section .heading-box {
+    padding-right: 50px; }
+    .health-section .heading-box p {
+      padding: 10px 0;
+      font-size: 16px;
+      font-weight: 400;
+      color: #808080; }
+    .health-section .heading-box .btn {
+      display: inline-block;
+      border: 0;
+      padding-left: 0;
+      color: red;
+      font-weight: 600; }
+      .health-section .heading-box .btn::after {
+        height: 10px; }
+      .health-section .heading-box .btn:hover {
+        background-color: transparent; }
+        .health-section .heading-box .btn:hover::after {
+          background-image: url(../images/arrow-red.png); }
+  .health-section .img-box {
+    float: right;
+    position: relative; }
+    .health-section .img-box::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      border: 9px solid #ed2839;
+      position: absolute;
+      top: 50px;
+      left: -50px;
+      z-index: -1; }
+  .health-section .benefit-list .heading-box {
+    padding: 40px 0;
+    padding-top: 120px; }
+    .health-section .benefit-list .heading-box h6 {
+      text-transform: none; }
+  .health-section .benefit-list ul li {
+    width: calc(100%/3);
+    padding: 0 30px; }
+    .health-section .benefit-list ul li:first-child {
+      padding-left: 0; }
+    .health-section .benefit-list ul li:last-child {
+      padding-right: 0; }
+  .health-section .benefit-list .card {
+    display: flex;
+    align-items: center;
+    flex-direction: row; }
+    .health-section .benefit-list .card h6 {
+      font-weight: 500;
+      text-transform: capitalize; }
+    .health-section .benefit-list .card span {
+      display: inline-block; }
+    .health-section .benefit-list .card .icon {
+      flex: 1;
+      max-width: 117px;
+      width: 117px;
+      height: 111px;
+      background-color: #ed2839;
+      position: relative; }
+      .health-section .benefit-list .card .icon::before {
+        content: "";
+        width: 65%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+    .health-section .benefit-list .card .icon-1::before {
+      background-image: url("../images/wwa-health-icon-1.png"); }
+    .health-section .benefit-list .card .icon-2::before {
+      background-image: url("../images/wwa-health-icon-2.png"); }
+    .health-section .benefit-list .card .icon-3::before {
+      background-image: url("../images/wwa-health-icon-3.png"); }
+    .health-section .benefit-list .card .btext {
+      flex: 2;
+      padding-left: 20px; }
+
+@media all and (max-width: 1366px) {
+  .list-section, .team-section, .history-section, .health-section {
+    padding: 100px 0; }
+
+  .list-section .container .col-5:first-child {
+    padding-left: 120px; }
+  .list-section .text-box h6 {
+    font-size: 23px; }
+  .list-section .p-list-box ul {
+    padding-left: 50px; }
+    .list-section .p-list-box ul li .card {
+      padding: 25px 40px; }
+      .list-section .p-list-box ul li .card h6 {
+        font-size: 17px; }
+
+  .vision-section {
+    padding: 50px 0; }
+    .vision-section strong {
+      font-size: 18px; }
+
+  .history-section .heading-box {
+    padding-right: 160px; }
+  .history-section .history-list ul li {
+    padding: 35px 0; }
+
+  .health-section .benefit-list .card .icon {
+    height: 90px; } }
+@media all and (max-width: 1200px) {
+  .list-section, .team-section, .history-section, .health-section {
+    padding: 80px 0; }
+
+  .list-section .container .col-5:first-child {
+    padding-left: 100px; }
+  .list-section .text-box h6 {
+    font-size: 20px; }
+  .list-section .p-list-box ul li .card {
+    padding: 25px; }
+    .list-section .p-list-box ul li .card h6 {
+      font-size: 16px; }
+
+  .vision-section {
+    padding: 40px 0; }
+    .vision-section strong {
+      font-size: 16px; }
+
+  .team-section .heading-box p {
+    padding: 30px 0; }
+
+  .history-section .heading-box {
+    padding-right: 100px; }
+  .history-section .history-list ul li {
+    padding: 30px 0; }
+
+  .health-section .benefit-list .heading-box {
+    padding: 45px 0; }
+  .health-section .benefit-list .card .icon {
+    height: 75px; }
+  .health-section .img-box {
+    width: 90%; }
+    .health-section .img-box::before {
+      top: 40px;
+      left: -40px; } }
+@media all and (max-width: 1024px) {
+  .heading-box {
+    width: 100% !important; }
+
+  .list-section .container {
+    max-width: 1200px;
+    width: 82%;
+    margin: 0 auto; }
+    .list-section .container .col-5:first-child {
+      padding: 0; }
+  .list-section .p-list-box {
+    padding-top: 30px; }
+    .list-section .p-list-box ul {
+      padding-left: 0; }
+
+  .vision-section .our-vision .text-box {
+    padding: 0;
+    padding-top: 25px; }
+  .vision-section .our-mission .text-box {
+    padding: 0;
+    padding-top: 25px; }
+
+  .history-section .heading-box {
+    padding-right: 0; }
+
+  .health-section .img-box {
+    padding: 25px 0;
+    float: left;
+    width: 100%; }
+    .health-section .img-box::before {
+      display: none; }
+    .health-section .img-box img {
+      width: 100%; }
+  .health-section .benefit-list .heading-box {
+    padding: 35px 0; }
+
+  .team-section .img-box {
+    padding: 25px; }
+
+  .health-section .benefit-list ul li {
+    width: 100%;
+    padding: 15px 0; }
+    .health-section .benefit-list ul li .card .icon::before {
+      width: 55%; } }
+@media all and (max-width: 900px) {
+  .history-section .lion-bg {
+    background-size: 50%; } }
+@media all and (max-width: 768px) {
+  .site-header .container {
+    width: 95%; }
+
+  .list-section, .team-section, .history-section, .health-section {
+    padding: 50px 0; }
+
+  .company-section .list-box {
+    padding-bottom: 0; }
+
+  .list-section .container {
+    width: 95%; }
+    .list-section .container .col-5:nth-child(2) {
+      padding-right: 0; }
+  .list-section .text-box {
+    padding-right: 0; }
+  .list-section .p-list-box ul {
+    height: auto;
+    flex-direction: row; }
+    .list-section .p-list-box ul li {
+      width: calc(50% - 30px);
+      padding: 15px 0;
+      margin: 0 15px;
+      text-align: center; }
+      .list-section .p-list-box ul li:first-child {
+        padding-top: 0; }
+      .list-section .p-list-box ul li:last-child {
+        padding-bottom: 0; }
+
+  .history-section .history-list ul {
+    padding-left: 135px; }
+    .history-section .history-list ul .card::before {
+      font-size: 22px;
+      top: 8px;
+      left: -97px; }
+    .history-section .history-list ul .card::after {
+      top: 27px;
+      left: -33px;
+      width: 12px; }
+
+  .vision-section {
+    padding: 10px 0; }
+
+  .team-section .img-box {
+    padding: 20px; }
+
+  .health-section .heading-box {
+    padding-right: 0; } }
+@media all and (max-width: 660px) {
+  .list-section .container .col-5:nth-child(2) {
+    padding-right: 0; }
+  .list-section .p-list-box ul {
+    padding: 0; }
+    .list-section .p-list-box ul li {
+      width: 100%;
+      margin: 0; }
+      .list-section .p-list-box ul li .card {
+        min-height: auto; }
+  .list-section .text-box .btn {
+    width: 100%; }
+
+  .history-section .history-list ul .card {
+    flex-direction: column; } }
+
+/*# sourceMappingURL=who-we-are.css.map */
