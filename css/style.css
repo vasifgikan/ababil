@@ -20,6 +20,7 @@ img, iframe, video, audio {
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 /* Container */
